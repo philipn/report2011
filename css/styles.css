@@ -89,7 +89,7 @@ a {
 
 #logo {
   background-color: #f4f4f4;
-  padding: 20px 0 18px 0; }
+  padding: 28px 0 28px 0; }
   #logo div {
     margin: 0 auto;
     padding-left: 1px;
@@ -160,10 +160,12 @@ a {
     text-indent: -6px; }
 .item#overview {
   background: #d3d6e1;
+  color: #333;
   padding: 100px 0; }
   .item#overview .text {
     margin: 0 auto;
-    padding: 0 50px;
+    background-color: white;
+    padding: 1.8em 3em 1em 3em;
     width: 700px; }
   .item#overview .details {}
   .item#overview .details p {
@@ -173,8 +175,8 @@ a {
     font-family: "myriad-pro",sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 80px;
-    margin: 0 0 0.4em 0;
+    font-size: 42px;
+    margin: 0 0 0.7em 0;
     padding-bottom: 0.3em;
     border-bottom: 8px solid #424242;
     text-align: left;
@@ -204,7 +206,7 @@ a {
     font-style: normal;
     font-size: 32px; }
 .item#software_overview {
-  background: #cb99e8;
+  background: #d0bddb;
   padding: 350px 0 350px 0; }
   .item#software_overview .text {
     margin: 0 auto;
@@ -215,6 +217,7 @@ a {
   .item#software_overview h1 {
     color: #424242;
     padding-bottom: 0.5em;
+    padding-left: 0.5em;
     font-family: "proxima-nova",sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -421,15 +424,14 @@ a {
   background: #e3aff9;
   height: 900px; }
   .item#numbers_intro .bg_text {
+    color: #c096d1;
     margin: 0;
     font-family: "proxima-nova",sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 100px;
-    color: #333;
     height: 900px;
     overflow: hidden;
-    opacity: 0.2;
     word-wrap: break-word;
   }
   .item#numbers_intro .text {
@@ -448,7 +450,7 @@ a {
     font-style: normal;
     font-weight: 700;
     text-transform: uppercase;
-    font-size: 72px; }
+    font-size: 62px; }
     .item#numbers_intro h1 span {
       font: 400 64px/64px "gentium book basic";
       font-style: italic;
@@ -972,12 +974,12 @@ a {
     margin-left: auto;
     margin-right: auto;
     background-color: white;
-    text-align: center;
+    text-align: left;
     line-height: 1.5;
-    padding: 1em 0 1em 0;
+    padding: 1em 0 1.8em 0;
   }
   .item#donate .donate_call {
-    margin: 2em auto;
+    margin: 1em auto;
     line-height: 1.5;
     padding: 0 4em;
     max-width: 540px;
@@ -990,11 +992,11 @@ a {
   }
   .item#donate h1 {
     color: #333;
+    text-align: center;
     font-family: "proxima-nova",sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 52px;
-    margin-bottom: 0.5em; }
+    font-size: 52px; }
   .item#donate form {
       margin-bottom: 1em;
    }
@@ -1004,7 +1006,7 @@ a {
   .item#donate .wepay_donations_widget_main {
       margin-left: auto;
       margin-right: auto;
-      margin-top: 2em;
+      margin-top: 2.4em;
    }
    .item#donate input[type="text"]{
       margin: 0.2em;
