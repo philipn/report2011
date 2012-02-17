@@ -655,7 +655,7 @@ a {
       font-style: italic;
       text-transform: none; }
   .item#look_inside_dwiki_2 p {
-     line-height: 1.5;
+     line-height: 1.6;
      margin-bottom: 1.5em; }
   #look_inside_dwiki_2 .stats {
      color: #383838;
@@ -731,7 +731,7 @@ a {
       font-style: italic;
       text-transform: none; }
   .item#look_inside_denton_detail p {
-     line-height: 1.5;
+     line-height: 1.6;
      margin-bottom: 1em; }
   #denton_page_content_over_time {
      height: 300px;
@@ -747,7 +747,6 @@ a {
      float: right;
      width: 420px;
      padding-left: 1em;
-     margin-bottom: 3em;
      margin-left: 3em;
   }
   #look_inside_denton_detail .stats h2 {
@@ -761,11 +760,11 @@ a {
   #look_inside_denton_detail .stats .number {
      font-size: 36px;
      margin: 0;
-     margin-bottom: 1em;
+     margin-bottom: 0.5em;
   }
   #look_inside_denton_detail .stats .numbers {
      float: right;
-     margin-top: 2em;
+     margin-top: 1em;
      margin-right: 1em; }
   #look_inside_denton_detail .stats .type {
      margin-right: auto;
@@ -818,7 +817,7 @@ a {
       font-style: italic;
       text-transform: none; }
   .item#look_inside_triangle_detail p {
-     line-height: 1.5;
+     line-height: 1.6;
      margin-bottom: 1em; }
   #triangle_page_content_over_time {
      height: 300px;
