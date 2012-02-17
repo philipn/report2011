@@ -159,7 +159,7 @@ a {
     margin: 0 0 10px 0;
     text-indent: -6px; }
 .item#overview {
-  background: #cfd3e3;
+  background: #d3d6e1;
   padding: 100px 0; }
   .item#overview .text {
     margin: 0 auto;
@@ -175,8 +175,8 @@ a {
     font-weight: 700;
     font-size: 80px;
     margin: 0 0 0.4em 0;
-    padding-bottom: 0.4em;
-    border-bottom: 8px solid #f4f4f4;
+    padding-bottom: 0.3em;
+    border-bottom: 8px solid #424242;
     text-align: left;
     width: 700px; }
     .item#overview h1 span {}
@@ -184,7 +184,7 @@ a {
     color: #222;
     font-family: "ff-meta-web-pro",Helvetica,Arial,sans-serif;
     font-size: 16px;
-    line-height: 1.4;
+    line-height: 1.5;
     margin: 0; }
 .item#software_intro {
   background: #fdf984;
@@ -204,30 +204,33 @@ a {
     font-style: normal;
     font-size: 32px; }
 .item#software_overview {
-  background: #f92b2b;
+  background: #cb99e8;
   padding: 350px 0 350px 0; }
   .item#software_overview .text {
     margin: 0 auto;
     padding: 0 100px;
     font-family: "ff-meta-web-pro",Helvetica,Arial,sans-serif;
     text-align: left;
-    color: white;
     width: 40em; }
   .item#software_overview h1 {
-    color: #fff;
+    color: #424242;
     padding-bottom: 0.5em;
-    margin-bottom: 0.5em;
     font-family: "proxima-nova",sans-serif;
     font-weight: 700;
     font-style: normal;
-    border-bottom: 4px solid #ffc2c2;
     font-size: 48px; }
+  .item#software_overview .description {
+    margin-top: 0.5em;
+    color: #333333;
+    background-color: white;
+    padding: 1.5em 1.5em 0.5em 1.5em; }
   .item#software_overview p {
     line-height: 1.5;
     margin-bottom: 1em;
     font-size: 16px;
   }
 .item#editing {
+  color: #333;
   background: #f4f4f4;
   padding: 350px 0 0 0; }
   .item#editing .text {
@@ -261,6 +264,7 @@ a {
     margin-top: 30px; }
 .item#page_diff {
   background: #f4f4f4;
+  color: #333;
   padding: 250px 0 150px 0; }
   .item#page_diff .text {
     margin: 0 auto;
@@ -292,7 +296,7 @@ a {
     margin-left: 100px;
     margin-top: 30px; }
 .item#page_result {
-  background: #76ff6c;
+  background: #98f691;
   padding: 350px 0 350px 0; }
   .item#page_result .text {
     margin: 0 auto;
@@ -348,6 +352,7 @@ a {
 .item.map_example {
   background: #f4f4f4;
   min-height: 400px;
+  color: #333;
   padding: 250px 0 50px 0; }
   .item.map_example .text {
     margin: 0 auto;
@@ -382,29 +387,30 @@ a {
   padding-bottom: 100px;
 }
 .item#talks {
-  background: #0ac5f4;
+  background: #abd8e3;
   font-family: "ff-meta-web-pro", Arial, "Helvetica Neue", sans-serif;
+  text-align: center;
   padding: 350px 0 350px 0; }
   .item#talks .text {
-    margin: 0 auto;
-    padding: 0 100px;
-    text-align: center;
-    width: 800; }
+    margin: 0;
+    color: #333;
+    padding: 0 100px; }
   .item#talks h1 {
     color: #fff;
+    display: inline;
     font-family: "proxima-nova",sans-serif;
     font-weight: 700;
     font-style: normal;
-    margin-bottom: 1em;
     font-size: 42px; }
   .item#talks ul {
-    text-align: left;
-    width: 800px;
+    display: block;
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1em;}
+    margin-top: 1.5em;}
   .item#talks li {
     display: block;
+    text-align: left;
     color: #333;
     padding: 0.3em 0.5em 0.2em 0.5em;
     background-color: white;
@@ -412,7 +418,7 @@ a {
     margin-right: 0.5em;
     line-height: 2;}
 .item#numbers_intro {
-  background: #d74eff;
+  background: #e3aff9;
   height: 900px; }
   .item#numbers_intro .bg_text {
     margin: 0;
@@ -442,7 +448,7 @@ a {
     font-style: normal;
     font-weight: 700;
     text-transform: uppercase;
-    font-size: 80px; }
+    font-size: 72px; }
     .item#numbers_intro h1 span {
       font: 400 64px/64px "gentium book basic";
       font-style: italic;
@@ -518,10 +524,11 @@ a {
       font-size: 120px;
     }
   .item#numbers_installs .details {
+    font-family: "ff-meta-web-pro", Arial, "Helvetica Neue", sans-serif;
     clear: both;
     margin: 0 auto;
     padding: 2em 0 0 0;
-    line-height: 1.5;
+    line-height: 1.7;
     color: #333;
     max-width: 680px;
     text-align: center; }
@@ -553,10 +560,11 @@ a {
     color: #5a5a5a;
     font-size: 20px; }
   .item#numbers_traffic p {
+    font-family: "ff-meta-web-pro", Arial, "Helvetica Neue", sans-serif;
     width: 700px;
     margin-left: auto;
     margin-right: auto;
-    line-height: 1.4;
+    line-height: 1.6;
   }
   .item#numbers_traffic h1 {
     color: #333;
@@ -571,12 +579,12 @@ a {
       font-style: italic;
       text-transform: none; }
 .item#look_inside_dwiki_intro {
-  background: #0ac5f4;
+  background: #f89c9c;
   font-family: "myriad-pro",sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 80px;
-  padding: 350px 0 350px 0; }
+  font-size: 52px;
+  padding: 400px 0 400px 0; }
   .item#look_inside_dwiki_intro .text {
     margin: 0 auto;
     padding: 0 100px;
@@ -655,6 +663,7 @@ a {
       font-style: italic;
       text-transform: none; }
   .item#look_inside_dwiki_2 p {
+     color: #333;
      line-height: 1.6;
      margin-bottom: 1.5em; }
   #look_inside_dwiki_2 .stats {
@@ -731,6 +740,7 @@ a {
       font-style: italic;
       text-transform: none; }
   .item#look_inside_denton_detail p {
+     color: #333;
      line-height: 1.6;
      margin-bottom: 1em; }
   #denton_page_content_over_time {
@@ -817,6 +827,7 @@ a {
       font-style: italic;
       text-transform: none; }
   .item#look_inside_triangle_detail p {
+     color: #333;
      line-height: 1.6;
      margin-bottom: 1em; }
   #triangle_page_content_over_time {
@@ -863,10 +874,9 @@ a {
   }
 
 .item#where_helping {
-  background: #;
   color: #333;
   font-family: "ff-meta-web-pro", Arial, "Helvetica Neue", sans-serif;
-  padding: 350px 0 350px 0; }
+  padding: 150px 0 250px 0; }
   .item#where_helping .text {
     margin: 0 auto;
     padding: 0 100px;
@@ -879,11 +889,11 @@ a {
     font-style: normal;
     font-size: 32px; }
   .item#where_helping img {
-    border: 3px solid #7c7c7c;
+    border: 3px solid #d0d0d0;
     margin: 1.5em 1em 1em 1em;
   }
 .item#donors {
-  background: #AD0918;
+  background: #fff;
   padding: 350px 0 350px 0; }
   .item#donors li {
      margin-top:0.2em;
@@ -895,13 +905,13 @@ a {
     margin: 0 auto;
     padding: 0;
     text-align: left;
-    color: #DFC272;
+    color: #333;
     max-width: 50em; }
   .item#donors h1 {
     white-space:nowrap;
-    color: #fff;
+    color: #333;
     display: block;
-    padding-bottom: 0.5em;
+    padding-bottom: 0em;
     font-family: "proxima-nova",sans-serif;
     font-style: normal;
     font-size: 52px;
@@ -921,13 +931,14 @@ a {
     }
     .item#donors h2 {
     white-space:nowrap;
-    color: #fff;
+    color: #333;
     padding-bottom: 0.5em;
     font-family: "proxima-nova",sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    margin-bottom: 0.5em;
+    margin-bottom: 1em;
+    margin-top: 2em;
     }
 
   .item#donors p {
@@ -935,7 +946,7 @@ a {
     margin-bottom: 1em;
   }
 .item#thanks {
-  background: #0ac5f4;
+  background: #b6f1a6;
   padding: 350px 0 350px 0; }
   .item#thanks .text {
     margin: 0 auto;
@@ -949,15 +960,21 @@ a {
     padding: 0.5em 1em 0.5em 1em;
     font-family: "proxima-nova",sans-serif;
     font-style: normal;
-    font-size: 52px;
+    font-size: 42px;
     font-weight: 700; }
 .item#donate {
-  background: #fcfaf2;
+  background: #f4f4f4;
+  font-family: "ff-meta-web-pro", Arial, "Helvetica Neue", sans-serif;
   color: #333;
-  font-family: "open-sans", sans-serif;
   padding: 350px 0 350px 0; }
   .item#donate .text {
+    width: 30em;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
     text-align: center;
+    line-height: 1.5;
+    padding: 1em 0 1em 0;
   }
   .item#donate .donate_call {
     margin: 2em auto;
@@ -973,13 +990,11 @@ a {
   }
   .item#donate h1 {
     color: #333;
-    font: 800 64px/64px "open-sans", sans-serif;
-    margin-bottom: 0.5em;
-    text-transform: uppercase; }
-    .item#donate h1 span {
-      font: 400 64px/64px "gentium book basic";
-      font-style: italic;
-      text-transform: none; }
+    font-family: "proxima-nova",sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 52px;
+    margin-bottom: 0.5em; }
   .item#donate form {
       margin-bottom: 1em;
    }
