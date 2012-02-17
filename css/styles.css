@@ -217,10 +217,10 @@ a {
     color: #fff;
     padding-bottom: 0.5em;
     margin-bottom: 0.5em;
-    font-family: "chennai-slab",serif;
-    font-weight: 200;
-    border-bottom: 4px solid #ffc2c2;
+    font-family: "proxima-nova",sans-serif;
+    font-weight: 700;
     font-style: normal;
+    border-bottom: 4px solid #ffc2c2;
     font-size: 48px; }
   .item#software_overview p {
     line-height: 1.5;
