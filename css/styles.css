@@ -76,10 +76,11 @@ a {
 }
 
 #footer {
-  padding: 50px;
+  padding: 0 50px 50px 50px;
   text-align: center; }
   #footer p {
     color: #555;
+    margin-bottom: 1em;
     font: 400 13px/13px "open-sans", sans-serif; }
     #footer p a {
       color: #555;
@@ -968,9 +969,15 @@ a {
   background: #f4f4f4;
   font-family: "ff-meta-web-pro", Arial, "Helvetica Neue", sans-serif;
   color: #333;
-  padding: 350px 0 350px 0; }
+  padding: 350px 0 300px 0; }
+  .item#donate .check {
+    font-size: 12px;
+    margin: 1em auto;
+    line-height: 1.5;
+    padding: 0 4em;
+    max-width: 540px; }
   .item#donate .text {
-    width: 30em;
+    width: 40em;
     margin-left: auto;
     margin-right: auto;
     background-color: white;
